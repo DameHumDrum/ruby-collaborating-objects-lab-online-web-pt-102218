@@ -20,7 +20,7 @@ class Artist
     @@all << self
   end
   
-  sef self.find_or_create_by_name(name)
+  def self.find_or_create_by_name(name)
     if @@all.all? { |artist| artist.name 1+ name}
       artist = self.new(name)
     else
