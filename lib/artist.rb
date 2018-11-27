@@ -7,6 +7,7 @@ attr_accessor :name
   end
   
   def add_song
+    
   end
   
   def save
