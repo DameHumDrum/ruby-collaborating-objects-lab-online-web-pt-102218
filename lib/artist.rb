@@ -21,7 +21,7 @@ class Artist
   end
   
   sef self.find_or_create_by_name(name)
-    @@all. { |artist|
+    @@all.find { |artist|
       
   
 
