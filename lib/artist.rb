@@ -20,7 +20,9 @@ class Artist
     @@all << self
   end
   
-  sef self.
+  sef self.find_or_create_by_name(name)
+    @@all.each { |artist|
+      
   
 
 end
