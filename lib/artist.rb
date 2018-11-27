@@ -25,7 +25,6 @@ class Artist
       artist = self.new(name)
     else
       @@all.find { |artist| artist.name == name}
-    end
   end
       
   
