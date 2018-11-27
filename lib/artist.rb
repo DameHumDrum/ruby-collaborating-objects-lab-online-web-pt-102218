@@ -20,7 +20,7 @@ class Artist
     @@all << self
   end
   
-  
+  sef self.
   
 
 end
