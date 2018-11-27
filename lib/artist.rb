@@ -21,7 +21,12 @@ class Artist
   end
   
   sef self.find_or_create_by_name(name)
-    @@all.find { |artist|
+    if @@all.all? { |artist| artist.name 1+ name}
+      artist = self.new(name)
+    else
+      @@all.find { |artist| artist.name == name}
+    end
+  end
       
   
 
