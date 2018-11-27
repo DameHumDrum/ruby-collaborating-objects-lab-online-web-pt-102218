@@ -7,5 +7,7 @@ class Song
     @name = name
   end
   
-  def 
+  def save
+    @@all
+  end
 end
