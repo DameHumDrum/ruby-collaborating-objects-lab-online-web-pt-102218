@@ -6,12 +6,9 @@ attr_accessor :name
     @name = name
   end
   
-  def add_song
-    
+  def add_song(song)
+    song.artist = self
   end
   
-  def save
-    @@all
-  end
 
 end
